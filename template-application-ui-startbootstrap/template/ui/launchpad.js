@@ -23,6 +23,14 @@ exports.getSources = function(parameters) {
 		location: "/template-application-ui-startbootstrap/js/scripts.js.template", 
 		action: "copy",
 		rename: "js/scripts.js"
+	}, {
+		location: "/template-application-ui-startbootstrap/home.html.template", 
+		action: "generate",
+		rename: "home.html",
+	}, {
+		location: "/template-application-ui-startbootstrap/tables.html.template", 
+		action: "generate",
+		rename: "tables.html",
 	}];
     
     return sources;
