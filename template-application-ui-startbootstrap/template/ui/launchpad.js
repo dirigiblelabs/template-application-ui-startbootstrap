@@ -31,6 +31,10 @@ exports.getSources = function(parameters) {
 		location: "/template-application-ui-startbootstrap/tables.html.template", 
 		action: "generate",
 		rename: "tables.html",
+	}, {
+		location: "/template-application-ui-startbootstrap/entities/entity1.html.template", 
+		action: "generate",
+		rename: "entities/entity1.html",
 	}];
     
     return sources;
